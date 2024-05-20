@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="content=" width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <!-- font stylesheet: will load three separate fonts: Anton, Baskervville, and Raleway. -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins&display=swap" />
+    <!-- FontAwesome stylesheet -->
+    <!-- <link rel= "stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"/> -->
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <header id="header" class="grid">
+        <img id="header-img"
+            src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png"
+            alt="freecodecamp logo" loading="lazy" width=200 />
+        <nav id="nav-bar">
+            <a id="nav-link" class="nav-link" href="#features">Features</a>
+            <a id="nav-link" class="nav-link" href="#video">How It Works</a>
+            <a id="nav-link" class="nav-link" href="#cards">Pricing</a>
+        </nav>
+    </header>
+    <main class="grid">
+
+        <div class="subscribe">
+            <h2>Handcrafted, home-made masterpieces
+            </h2>
+            <form id="form" action="https://www.freecodecamp.com/email-submit"><input id="email" type="email"
+                    name="email" placeholder="Enter your email address"></input>
+                <input id="submit" type="submit" href="https://www.freecodecamp.com/email-submit"></input>
+            </form>
+        </div>
+        <section class="features" id="features">
+            <div class="feature">
+                <h2>&#9745 Premium Materials</h2>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean
+                    commodo ligula eget dolor.</p>
+            </div>
+            <div class="feature">
+                <h2>&#9992 Fast Shipping</h2>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean
+                    massa.</p>
+            </div>
+            <div class="feature">
+                <h2>&#9730 Lifetime warranty</h2>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean
+                    massa. Aenean massa.</p>
+            </div>
+        </section>
+        <iframe id="video" src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&controls=0&showinfo=0">
+        </iframe>
+        <section id="cards" class="cards">
+            <div class="card">
+                <div class="card-content">
+                    <div class="price-category">TENOR TROMBONE</div>
+                    <h2>$600</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+                        Aenean massa.</p>
+                    <a href="#" class="button">Select</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <div class="price-category">BASS TROMBONE</div>
+                    <h2>$700</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+                        Aenean massa.</p>
+                    <a href="#" class="button">Select</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <div class="price-category">VALVE TROMBONE</div>
+                    <h2>$800</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+                        Aenean massa.</p>
+                    <a href="#" class="button">Select</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+</body>
